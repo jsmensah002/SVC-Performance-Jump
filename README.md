@@ -27,4 +27,5 @@ PHASE 2 Discussion:
 - Removing outliers and tuning parameters improved LR's performance but showed mild overfitting, significantly improved SVC's performance with no overfitting, and reduced RFC's performance.
 
 Key Insights:
+- Baseline performance doesn’t reflect the model’s true potential. Noise, outliers, and suboptimal hyperparameters can suppress its ability to learn patterns. Once outliers were addressed and hyperparameters were tuned, SVC could finally capture the structure in the data, drastically improving performance and even surpassing models that were initially better.
 - Settling for the ‘best’ model in base modeling might not yield the best results after optimization, as proper outlier handling and hyperparameter tuning can transform underperforming models to outperform initially dominant ones while improving generalization.
