@@ -7,9 +7,9 @@ PHASE 1: Modeling with Outliers Retained
 - Despite tuning, the performance of all three models plateaued.
 
 Results from PHASE 1:
-- Logistic Regression (LR) : Train 80% of data score: 0.7046 || Test 20% of data score: 0.7120
-- Support Vector Classification (SVC) : Train 80% of data score 0.4686 || Test 20% of data score: 0.4525
-- Random Forest Classifier (RFC): Train 80% of data score: 1.00 || Test 20% of data score: 0.8630
+- Logistic Regression (LR) : Train 80% of data score: 0.7027 || Test 20% of data score: 0.7040
+- Support Vector Classification (SVC) : Train 80% of data score 0.4689 || Test 20% of data score: 0.4520
+- Random Forest Classifier (RFC): Train 80% of data score: 1.00 || Test 20% of data score: 0.858
 
 PHASE 1 Discussion:
 - LR emerged as the best model. Although RFC had a great test score, it ended up overfitting. Further optimization was then carried out to improve model performance.
@@ -20,9 +20,9 @@ PHASE 2: Outlier Removal + Parameter Tunings
 - Models were retrained and tuned again.
 
 Results from PHASE 2:
-- Logistic Regression (LR) : Train 80% of data score: 0.8719 || Test 20% of data score: 0.785
+- Logistic Regression (LR) : Train 80% of data score: 0.8715 || Test 20% of data score: 0.7845
 - Support Vector Classification (SVC) : Train 80% of data score 0.7945 || Test 20% of data score: 0.8035
-- Random Forest Classifier (RFC): Train 80% of data score: 0.9927 || Test 20% of data score: 0.859
+- Random Forest Classifier (RFC): Train 80% of data score: 0.9934 || Test 20% of data score: 0.858
 
 PHASE 2 Discussion:
 - Removing outliers and tuning parameters improved LR's performance but showed mild overfitting, significantly improved SVC's performance with no overfitting, and reduced RFC's performance.
